@@ -102,11 +102,11 @@ header .main-menu .circle {
 }
 .Ellipse {
   width: 100%;
-  height: 1409px;
+  height: 73.385vw;
   margin: 0 auto;
   position: absolute;
   top: 5vw;
-  right: 1vw;
+  right: 0.521vw;
   z-index: -1;
 }
 
@@ -130,8 +130,8 @@ header .main-menu .circle {
   background-color: #191919;
   border: 3px solid #fff;
   border-radius: 30px;
-  width: 636px;
-  height: 177px;
+  width: 33.125vw;
+  height: 9.219vw;
   text-align: center;
   font-size: 30px;
   margin: 40px 0;
@@ -144,7 +144,7 @@ header .main-menu .circle {
   border: 2px dashed rgba(255, 255, 255, 0.6);
   position: relative;
   transform: rotate(180deg);
-  bottom: 2vw;
+  bottom: 45px;
   left: 30vw;
   width: 15vw;
   z-index: -1;
@@ -176,11 +176,11 @@ header .main-menu .circle {
 /***** 이모지 ******/
 .asbe-box .Asbe .Asis .emoji-1 {
   background: url(./image/cute-emoji2.png) no-repeat 50% / cover;
-  width: 133px;
-  height: 133px;
+  width: 6.927vw;
+  height: 6.927vw;
   position: absolute;
   left: 3vw;
-  top: 125vw;
+  top: 2300px;
 }
 .asbe-box .Asbe .text h3 {
   margin-top: 30px;
@@ -235,8 +235,8 @@ header .main-menu .circle {
   margin-top: 120px;
 }
 .keyword .key .key-box {
-  width: 350px;
-  height: 160px;
+  width: 18.229vw;
+  height: 8.333vw;
   text-align: center;
   border: 1px solid #fff;
   border-radius: 100px;
@@ -388,7 +388,7 @@ header .main-menu .circle {
 /******* typo *******/
 .typo{
   width: 600px;
-  margin: 135px 250px 0 250px;
+  margin: 135px 13.021vw 0 13.021vw;
   font-size: 20px;
 }
 .typo p{
@@ -405,7 +405,7 @@ header .main-menu .circle {
   margin-left: 20px;
 }
 .typo .txt-box .fonts{
-  margin-left: 110px;
+  margin-left: 5.729vw;
 }
 .typo .txt-box .fonts li{
   margin-bottom: 20px;
@@ -432,7 +432,7 @@ header .main-menu .circle {
   align-items: center;
 }
 .prototype img{
-  width: 100%;
+  width: 10.417vw;
 }
 .prototype p{
   text-align: center;
@@ -453,7 +453,7 @@ header .main-menu .circle {
   display: grid;
   grid-template-columns: repeat(2, 30vw);
   grid-template-rows: repeat(2, 1fr);
-  margin-left: 450px;
+  margin-left: 23.438vw;
   color: #fff;
 }
 .project .procedure-box h2{
