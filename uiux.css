@@ -1,0 +1,620 @@
+@charset "utf-8";
+
+body {
+  background-color: #191919;
+  list-style: none;
+  font-family: 'NanumSquareNeo-Variable';
+}
+/*********** header ***********/
+.main-menu .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 155px;
+  transition: 0.4s;
+  background-color: #191919;
+  z-index: 1;
+}
+/******* 움직이는 원 *******/
+.main-menu .circle {
+  background: url(./image/little-star-white.png) no-repeat 50% / contain;
+  width: 70px;
+  height: 70px;
+  list-style: none;
+}
+header .main-menu .circle {
+  animation: rotate_image 8s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/******* explan *******/
+.explan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.5vw;
+  padding-left: 210px;
+}
+.explan .explan-2 {
+  margin-top: 150px;
+}
+.explan .explan-2 .team {
+  margin-top: 100px;
+}
+.explan .explan-2 li {
+  margin: 33px 0;
+}
+.explan .explan-2 li .vision {
+  line-height: 140%;
+  font-size: 30px;
+}
+.explan .explan-2 li p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.explan .explan-2 .team-name {
+  display: flex;
+}
+.explan .explan-2 .team-name li {
+  margin-right: 20px;
+}
+.explan img {
+  width: 80px;
+}
+.mockup img {
+  width: 45vw;
+}
+/******* UX Vision *******/
+.UX-Vision {
+  margin-top: 400px;
+  color: #fff;
+}
+.UX-Vision h1 {
+  font-size: 35px;
+  padding-left: 110px;
+}
+.UX-Vision .ux-box {
+  text-align: center;
+  margin-right: 210px;
+  padding-left: 210px;
+  font-size: 45px;
+  line-height: 2.5;
+  margin-top: 7vw;
+  position: relative;
+}
+.UX-Vision .ux-box .box {
+  margin: 0 auto;
+  background-color: #222;
+  width: 620px;
+  height: 88px;
+  line-height: 88px;
+  border-radius: 50px;
+}
+.Ellipse {
+  width: 100%;
+  height: 1409px;
+  margin: 0 auto;
+  position: absolute;
+  top: 5vw;
+  right: 1vw;
+  z-index: -1;
+}
+
+/******* As is To be *******/
+.asbe-box {
+  margin-top: 230px;
+  color: #fff;
+}
+.asbe-box h1 {
+  font-size: 35px;
+  padding-left: 110px;
+}
+.asbe-box .Asbe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  padding: 0 210px;
+}
+/***** 공통 as is to be *****/
+.asbe-box .Asbe .text {
+  background-color: #191919;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  width: 636px;
+  height: 177px;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 0;
+}
+/****** 점선 ******/
+.asbe-box .Asbe .text.text-box1::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 2px dashed rgba(255, 255, 255, 0.6);
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 2vw;
+  left: 30vw;
+  width: 15vw;
+  z-index: -1;
+}
+.asbe-box .Asbe .text.text-box2::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 2px dashed rgba(255, 255, 255, 0.6);
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 3vw;
+  left: 30vw;
+  width: 15vw;
+  z-index: -1;
+}
+.asbe-box .Asbe .text.text-box3::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 2px dashed rgba(255, 255, 255, 0.6);
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 3vw;
+  left: 30vw;
+  width: 15vw;
+  z-index: -1;
+}
+/***** 이모지 ******/
+.asbe-box .Asbe .Asis .emoji-1 {
+  background: url(./image/cute-emoji2.png) no-repeat 50% / cover;
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  left: 3vw;
+  top: 125vw;
+}
+.asbe-box .Asbe .text h3 {
+  margin-top: 30px;
+}
+.asbe-box .Asbe .text h4 {
+  margin-top: 40px;
+  font-size: 18px;
+}
+.asbe-box .Asbe .text h5 {
+  font-size: 18px;
+}
+.asbe-box .Asbe h2 {
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+}
+
+/****** Tobe  ******/
+.asbe-box .Asbe .Tobe .text {
+  background-color: #fff;
+  color: #000;
+}
+
+/***** 이모지 ******/
+.asbe-box .Asbe .Tobe .emoji-2 {
+  background: url(./image/cute-emoji1.png) no-repeat 50% / cover;
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  left: 86vw;
+  top: 109vw;
+}
+
+/******** keyword *********/
+.keyword {
+  margin-top: 300px;
+  color: #fff;
+}
+.keyword h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  padding-left: 110px;
+  text-transform: capitalize;
+}
+.keyword h4 {
+  font-size: 20px;
+  padding-left: 110px;
+}
+.keyword .key {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.keyword .key .key-box {
+  width: 350px;
+  height: 160px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  line-height: 50px;
+  margin: 0 70px;
+  background-color: #fff;
+  color: #000;
+}
+
+/****** 점선 *******/
+.keyword .key .key-box1::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 1px dashed rgb(255, 255, 255);
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 3.7vw;
+  left: 19.4vw;
+  width: 5vw;
+}
+.keyword .key .key-box2::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 1px dashed rgb(255, 255, 255);
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 3.7vw;
+  left: 19.4vw;
+  width: 5vw;
+}
+
+.keyword .key .key-box p {
+  font-size: 18px;
+}
+.keyword .key .key-box h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.keyword .key .key-box h3 {
+  font-size: 25px;
+}
+.keyword .key .key-text {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.design {
+  margin-top: 185px;
+}
+.design .design-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 145px;
+}
+.design h1 {
+  padding-left: 110px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.design .design-box h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #32ba7a;
+  margin-bottom: 25px;
+}
+.design .color-box,
+.logo-box,
+.typo,
+.icon {
+  color: #fff;
+}
+/****** color *******/
+.design .design-box .color-box h2{
+  margin-bottom: 35px;
+}
+.design .color-box {
+  margin: 0 300px 0 250px;
+}
+.design .color-box .color {
+  display: flex;
+  justify-content: space-evenly;
+}
+.design .color-box .color li {
+  text-align: center;
+  line-height: 7;
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #222;
+}
+.design .color-box .color li:nth-child(1) {
+  background-color: #01b375;
+}
+.design .color-box .color li:nth-child(2) {
+  background-color: #f5f6f7;
+  co
+}
+.design .color-box .color li:nth-child(3) {
+  background-color: #dddddd;
+}
+.design .color-box .color li:nth-child(4) {
+  background-color: #777777;
+}
+.design .color-box .color li:nth-child(5) {
+  background-color: #222222;
+  border: 1px solid #ffffff69;
+  color: #fff;
+}
+.design .color-box p {
+  width: 600px;
+  font-size: 20px;
+  margin-bottom: 80px;
+  line-height: 2;
+}
+
+/******* logo *********/
+.design .logo-box{
+  width: 300px;
+}
+.design .logo-box p{
+  width: 490px;
+  font-size: 20px;
+  line-height: 2;
+}
+.design .logo-box .logo-ver{
+ display: flex;
+ justify-content: left;
+ margin-top: 60px;
+}
+.design .logo-box .logo-ver li{
+  margin: 0 60px;
+}
+.design .logo-box .logo-ver li h4{
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  color: #8C8C8C;
+}
+.design .logo-box .logo-ver li .dark{
+  width: 100px;
+  height: 100px;
+}
+
+/******* typo *******/
+.typo{
+  width: 600px;
+  margin: 135px 250px 0 250px;
+  font-size: 20px;
+}
+.typo p{
+  line-height: 2;
+  margin-bottom: 90px;
+}
+.typo .txt-1 li{
+  margin-bottom: 50px;
+}
+.typo .txt-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20px;
+}
+.typo .txt-box .fonts{
+  margin-left: 110px;
+}
+.typo .txt-box .fonts li{
+  margin-bottom: 20px;
+}
+
+/******* icon *******/
+.icon{
+  margin: 120px 250px 0 0;
+}
+.icon img{
+  margin-top: 80px;
+}
+.icon p{
+  width: 524px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+/******* 프로토타입 ********/
+.prototype{
+  margin-top: 233px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.prototype img{
+  width: 100%;
+}
+.prototype p{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+/****** procedure ******/
+.project{
+  margin-top: 410px;
+  padding: 205px 0 260px 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.project .procedure-box{
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 450px;
+  color: #fff;
+}
+.project .procedure-box h2{
+  font-size: 30px;
+}
+.project .order{
+margin-top: 70px;
+font-size: 20px;
+line-height: 2;
+}
+
+/****** work *******/
+.work h2{ 
+  margin-bottom: 70px;
+}
+.work p{
+  font-size: 20px;
+  line-height: 2;
+}
+
+/****** result *******/
+.result{
+  margin-top: 130px;
+}
+.result p{
+  width: 1030px;
+  margin-top: 35px;
+  line-height: 2;
+  font-size: 20px;
+}
+
+/****** review-box *******/
+.review-box{
+  margin-top: 111px;
+}
+.review-box .review{
+  margin: 0 400px;
+  color: #fff;
+}
+.review-box .review h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+.review-box .review p{
+  width: 890px;
+  font-size: 20px;
+  margin: 60px 0;
+}
+
+/****** footer slide ******/
+footer {
+  margin-top: 300px;
+  color: #fff;
+}
+footer .slide {
+  margin-bottom: 175px;
+}
+/* footer slide */
+.viewBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.leftbox,
+.rightbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 0 20px;
+}
+.slideItem {
+  font-size: 10vw;
+  font-weight: 300;
+  color: #fff;
+  padding: 0 10px;
+}
+.slideBox {
+  width: 450%;
+  height: 12vw;
+  display: flex;
+  animation: flowText 30s linear infinite;
+}
+@keyframes flowText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/******** address *******/
+footer .address {
+  border-bottom: 2px solid #fff;
+  width: 1470px;
+  margin: 0 auto;
+  font-size: 35px;
+}
+footer .address .address-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .address .address-box li{
+  margin: 0 50px;
+}
+
+footer .address p {
+  width: 327px;
+  height: 73px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  margin-bottom: 80px;
+  line-height: 3.6;
+}
+
+/****** 화살표 이벤트 ******/
+footer .address .address-box:hover .arrow-left{
+  transform: translateX(50px);
+  transition: 0.5s;
+}
+footer .address .address-box:hover .arrow-right{
+  transform: translateX(-50px);
+  transition: 0.5s;
+}
+
+/****** 버튼 이벤트 ******/
+footer .address .address-box p:hover{
+  background-color: #01b375;
+  transition: 0.2s;
+}
+
+/****** 좌측 화살표 *******/
+footer .address .arrow-left{
+  background: url(./image/Arrow-left.png) no-repeat 50% /contain;
+  width: 5vw;
+  height: 1vw;
+  margin-bottom: 70px;
+}
+/****** 우측 화살표 *******/
+footer .address .arrow-right{
+  background: url(./image/Arrow-right.png) no-repeat 50% /contain;
+  width: 5vw;
+  height: 1vw;
+  margin-bottom: 70px;
+}
+footer .address .arrow-right{
+
+}
+footer .top-going {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+  height: 80px;
+  font-size: 25px;
+  padding: 0 230px;
+}
