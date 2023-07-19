@@ -4,4 +4,5 @@
 ## 230718 1400 width 맞게 조정중
 ## clamp()활용 사이트
 ## https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6Ijc2OHB4IiwibWF4V2lkdGgiOiIxMjgwcHgiLCJtaW5Gb250U2l6ZSI6IjQ2LjRweCIsIm1heEZvbnRTaXplIjoiNzhweCJ9
-## 1400기준으로 수정 완료
+## 230719 1400기준으로 수정 완료
+## 230719 검사 완료 내손안에 자료 주소연결만 하면 완료
