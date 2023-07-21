@@ -10,12 +10,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 150px;
+  height: 7.813vw;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 155px;
+  padding: 0 8.073vw;
   transition: 0.4s;
   background-color: #191919;
   z-index: 1;
@@ -23,8 +23,8 @@ body {
 /******* 움직이는 원 *******/
 .main-menu .circle {
   background: url(./image/little-star-white.png) no-repeat 50% / contain;
-  width: 70px;
-  height: 70px;
+  width: 3.646vw;
+  height: 3.646vw;
   list-style: none;
 }
 header .main-menu .circle {
@@ -43,16 +43,16 @@ header .main-menu .circle {
   justify-content: space-between;
   align-items: center;
   margin-top: 7.7vw;
-  padding-left: 210px;
+  padding-left: 10.938vw;
 }
 .explan .explan-2 {
-  margin-top: 150px;
+  margin-top: 7.813vw;
 }
 .explan .explan-2 .team {
-  margin-top: 100px;
+  margin-top: 5.208vw;
 }
 .explan .explan-2 li {
-  margin: 33px 0;
+  margin: 1.719vw 0;
 }
 .explan .explan-2 li .vision {
   line-height: 140%;
