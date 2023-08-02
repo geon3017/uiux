@@ -1,9 +1,0 @@
-home: https://geon3017.github.io/Portfolio-Main-Geon/
-
-volvo: https://geon3017.github.io/Volvo-expl/
-
-내손안의 분리수거: https://geon3017.github.io/uiux/
-
-베이힐: https://geon3017.github.io/JAVAS-expl/
-
-230721 모든 프로젝트 및 보러가기 주소 등록완료
